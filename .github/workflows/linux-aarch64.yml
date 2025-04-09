@@ -165,5 +165,4 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/')
         with:
           files: |
-            ${{ env.APP_NAME }}-v${{ env.APP_VERSION }}-linux-arm64.tar.xz
-            ${{ env.APP_NAME }}-v${{ env.APP_VERSION }}-linux-arm64-debug.tar.xz
+            ${{ env.APP_NAME }}-${{ env.APP_VERSION }}-linux-arm64.tar.xz

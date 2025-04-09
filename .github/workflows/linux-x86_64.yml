@@ -195,4 +195,3 @@ jobs:
         with:
           files: |
             ${{ env.APP_NAME }}-${{ env.APP_VERSION }}-linux-x64.tar.xz
-            ${{ env.APP_NAME }}-${{ env.APP_VERSION }}-linux-x64-debug.tar.xz
